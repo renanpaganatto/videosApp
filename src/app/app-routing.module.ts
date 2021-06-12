@@ -43,11 +43,11 @@ const routes: Routes = [
     path: 'dados-series',
     loadChildren: () => import('./dados-series/dados-series.module').then( m => m.DadosSeriesPageModule)
   },
- /* {
+  {
     path: 'login',
     loadChildren: () =>
       import('./login/login.module').then((m) => m.LoginPageModule),
-  },*/
+  },
 ];
 @NgModule({
   imports: [

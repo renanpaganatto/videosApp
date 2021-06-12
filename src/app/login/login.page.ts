@@ -1,7 +1,6 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { ToastController } from '@ionic/angular';
-import { core } from '@angular/compiler';
 
 @Component({
   selector: 'app-login',
@@ -21,7 +20,7 @@ export class LoginPage implements OnInit {
       this.route.navigateByUrl('/tabs/tab1');
       this.presentToast('Seja bem vindo!', 'success');
     } else {
-      this.presentToast('ERRO, usuário e/ou senha inválidos', 'dunger');
+      this.presentToast('ERRO, usuário e/ou senha inválidos', 'danger');
     }
   }
 

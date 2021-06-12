@@ -2,7 +2,7 @@
 <div class="center">
   <ion-card color='dark'>
     <img src="assets/videoapp.png" alt="Logo">
-    <ion-card-title class="ion-text-center">Vídeos App</ion-card-title>
+    <ion-card-title class="ion-text-center">Vídeos e Séries App</ion-card-title>
     <ion-item lines="none" color="dark">
       <ion-label position="floating">E-mail</ion-label>
       <ion-input type="email" [(ngModel)]="email"></ion-input>
@@ -11,7 +11,7 @@
       <ion-label position="floating">Senha</ion-label>
       <ion-input type="password" [(ngModel)]="senha"></ion-input>
     </ion-item>
-    <ion-button (click)="login" expand="full" fill="outline" color="light">ENTRAR</ion-button>
+    <ion-button (click)="login()" expand="full" fill="outline" color="light">ENTRAR</ion-button>
     <ion-button expand="full" fill="clear" color="light">REGISTRAR</ion-button>
   </ion-card>
 </div>

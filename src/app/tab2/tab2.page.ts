@@ -138,7 +138,7 @@ export class Tab2Page implements OnInit{
       dados.genres.forEach(genero=> {
         this.generoseries[genero.id] = genero.name;
       });
-      this.dadosService.guardarDados('generos', this.generoseries)
+      this.dadosService.guardarDados('generos', this.generoseries);
     });
   }
 }
